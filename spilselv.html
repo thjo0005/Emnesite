@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- Fil: spilselv.html | Type: HTML-side | Hvad gør den: Markup for sidens struktur (header/nav, hero og indhold). | Info: Titel='Emnesite', H1=0, IDs=0, Links=0 -->
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      href="billag_cs/logo/logo_uden tekst.webp"
+      type="image/png"
+    />
+    <title>Spil Selv - Padel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="billag_cs/logo/logo.webp" alt="Padel Logo" />
+          </a>
+        </div>
+        <nav>
+          <ul id="primary-menu" class="menu">
+            <li><a href="rules.html" class="nav-link">Regler&Bane</a></li>
+            <li><a href="equipment.html" class="nav-link">Udstyr</a></li>
+            <li>
+              <a href="spilselv.html" class="nav-link active">Spil Selv</a>
+            </li>
+          </ul>
+          <button
+            class="burger"
+            aria-label="Åbn mobilmenu"
+            aria-controls="primary-menu"
+            aria-expanded="false"
+          >
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="spilselv-page">
+      <section class="play section">
+        <div class="container">
+          <div class="page-header">
+            <h1 class="play__title">Hvor kan du spille padel?</h1>
+            <p class="play__intro">
+              Padel kan spilles i mange klubber og sportscentre rundt om i
+              Danmark. De fleste steder giver mulighed for at booke en bane
+              online.
+            </p>
+          </div>
+
+          <div class="play__panel">
+            <!-- Kort – billede (nem) -->
+            <figure class="play__map">
+              <img
+                src="billag_cs/pexels-ercan-evcimen-626365917-32474981.webp"
+                alt="Padelbaner i København - oversigtskort"
+              />
+            </figure>
+
+            <!-- Knap: åbner Google Maps søgning i ny fane -->
+            <div class="play__cta">
+              <a
+                class="btn-find"
+                href="https://www.google.com/maps/search/padel+baner+near+me"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Åbn Google Maps og find en padelbane tæt på dig"
+              >
+                Find en bane tæt på dig
+              </a>
+            </div>
+          </div>
+
+          <!-- Additional Information Section -->
+          <section class="info-section">
+            <h2 class="section-title">
+              Populære padel-destinationer i Danmark
+            </h2>
+            <div class="info-grid">
+              <div class="info-card">
+                <h3>København</h3>
+                <p>Flere indendørs og udendørs baner i hovedstadsområdet</p>
+              </div>
+              <div class="info-card">
+                <h3>Aarhus</h3>
+                <p>Moderne faciliteter med professionelle baner</p>
+              </div>
+              <div class="info-card">
+                <h3>Odense</h3>
+                <p>Familievenlige klubber med begynderkurser</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Tips Section -->
+          <section class="booking-tips">
+            <h2 class="section-title">Tips til booking</h2>
+            <div class="tips-grid">
+              <div class="tip-item">
+                <div class="tip-content">
+                  <h4>Book i god tid</h4>
+                  <p>Populære tider bliver hurtigt booket, især i weekenden</p>
+                </div>
+              </div>
+              <div class="tip-item">
+                <div class="tip-content">
+                  <h4>Prøv off-peak timer</h4>
+                  <p>Billigere priser om formiddagen og tidlig eftermiddag</p>
+                </div>
+              </div>
+              <div class="tip-item">
+                <div class="tip-content">
+                  <h4>Find spillepartnere</h4>
+                  <p>
+                    Mange klubber har Facebook-grupper til at finde medspillere
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <img
+          src="billag_cs/logo/logo.webp"
+          alt="Padel Logo"
+          class="footer-logo"
+        />
+        <p class="footer-text">
+          Din komplette guide til padel - fra regler og udstyr til spillet på
+          banen.
+        </p>
+      </div>
+      <p class="footer-copy">© 2025 PadelGuiden.dk</p>
+    </footer>
+    <script src="menu.js"></script>
+  </body>
+</html>

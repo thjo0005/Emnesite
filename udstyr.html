@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      href="billag_cs/logo/logo_uden tekst.webp"
+      type="image/png"
+    />
+    <title>Udstyr - PADEL</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="billag_cs/logo/logo.webp" alt="Padel Logo" />
+          </a>
+        </div>
+        <nav>
+          <ul id="primary-menu" class="menu">
+            <li><a href="regler.html" class="nav-link">Regler&Bane</a></li>
+            <li><a href="udstyr.html" class="nav-link">Udstyr</a></li>
+            <li><a href="spilselv.html" class="nav-link">Spil Selv</a></li>
+          </ul>
+          <button
+            class="burger"
+            aria-label="Åbn mobilmenu"
+            aria-controls="primary-menu"
+            aria-expanded="false"
+          >
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <main class="equipment-page">
+      <div class="container">
+        <div class="page-header">
+          <h1 class="gear__title">Udstyr</h1>
+        </div>
+
+        <!-- Equipment Grid -->
+        <div class="equipment-grid">
+          <a
+            href="https://whitesport.dk/collections/padel-bat"
+            class="gear-card"
+          >
+            <div class="gear-card__media">
+              <img src="billag_cs/padelbat.webp" alt="Padel Bat" />
+            </div>
+            <h3 class="gear-card__title">Padel Bat -</h3>
+            <p class="gear-card__text">
+              Findes i forskellige vægte og former. Begyndere bør bruge et rundt
+              bat.
+            </p>
+          </a>
+
+          <a
+            href="https://whitesport.dk/collections/padel-bolde"
+            class="gear-card"
+          >
+            <div class="gear-card__media">
+              <img src="billag_cs/tennisbold.webp" alt="Padel Bolde" />
+            </div>
+            <h3 class="gear-card__title">Padel Bolde -</h3>
+            <p class="gear-card__text">
+              Ligner tennisbolde, men har en smule lavere tryk.
+            </p>
+          </a>
+
+          <a
+            href="https://whitesport.dk/collections/padel-sko"
+            class="gear-card"
+          >
+            <div class="gear-card__media">
+              <img src="billag_cs/padelsko.webp" alt="Padel Sko" />
+            </div>
+            <h3 class="gear-card__title">Padel Sko -</h3>
+            <p class="gear-card__text">
+              Sports- eller indendørssko med godt greb.
+            </p>
+          </a>
+        </div>
+
+        <!-- Equipment Tips -->
+        <section class="equipment-tips">
+          <h2 class="section-title">Tips til valg af udstyr</h2>
+          <div class="tips-content">
+            <div class="tip-group">
+              <h3>For begyndere</h3>
+              <ul class="tip-list">
+                <li>Vælg et rundt padel bat for bedre kontrol</li>
+                <li>Start med et lettere bat (350-370g)</li>
+                <li>Investér i gode sko med lateral støtte</li>
+                <li>Brug almindeligt sportstøj</li>
+              </ul>
+            </div>
+
+            <div class="tip-group">
+              <h3>For øvede spillere</h3>
+              <ul class="tip-list">
+                <li>Overvej et diamant- eller dråbeformet bat</li>
+                <li>Tungere bat (370-390g) for mere kraft</li>
+                <li>Specialiserede padel sko</li>
+                <li>Overvej beskyttelsesudstyr</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <img
+          src="billag_cs/logo/logo.webp"
+          alt="Padel Logo"
+          class="footer-logo"
+        />
+        <p class="footer-text">
+          Din komplette guide til padel - fra regler og udstyr til spillet på
+          banen.
+        </p>
+      </div>
+      <p class="footer-copy">© 2025 PadelGuiden.dk</p>
+    </footer>
+    <script src="menu.js"></script>
+  </body>
+</html>
