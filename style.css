@@ -706,10 +706,9 @@ nav {
 }
 
 .play__map {
-  background: #0b4a42;
+  background: none;
   border-radius: 16px;
   padding: 0.6rem;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18) inset;
   margin-bottom: 2rem;
 }
 
@@ -731,8 +730,8 @@ nav {
   align-items: center;
   justify-content: center;
 
-  background: var(--gray-light);
-  color: var(--green-dark);
+  background: var(--green-light);
+  color: var(--white);
   font-weight: 800;
   font-size: clamp(1rem, 1.8vw, 1.35rem);
   text-decoration: none;
