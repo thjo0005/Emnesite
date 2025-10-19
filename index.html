@@ -3,22 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emnesite</title>
-    <link rel="stylesheet" href="general.css" />
-    <link rel="stylesheet" href="layout.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      href="billag_cs/logo/logo_uden tekst.webp"
+      type="image/png"
+    />
+    <title>PADEL - Din Guide Til Padel</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <header>ælkjælækj</header>
-    <main>
-      <section>
-        <div>
-          <h1>Din Guide Til Padel</h1>
-          <p></p>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="billag_cs/logo/logo.webp" alt="Padel Logo" />
+          </a>
         </div>
-        <img src="" alt="" />
+        <nav>
+          <ul id="primary-menu" class="menu">
+            <li><a href="regler.html" class="nav-link">Regler&Bane</a></li>
+            <li><a href="udstyr.html" class="nav-link">Udstyr</a></li>
+            <li><a href="spilselv.html" class="nav-link">Spil Selv</a></li>
+          </ul>
+          <button
+            class="burger"
+            aria-label="Åbn mobilmenu"
+            aria-controls="primary-menu"
+            aria-expanded="false"
+          >
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+          <img
+            src="billag_cs/flat-lay-people-playing-paddle-tennis.webp"
+            alt="Padelbane"
+            class="hero-image"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="hero-title">Din Guide Til Padel</h1>
+            <p class="hero-subtitle">Lær at spille padel som en professionel</p>
+          </div>
+        </div>
       </section>
-      <section></section>
+
+      <!-- About Section -->
+      <section class="about-section">
+        <div class="container">
+          <div class="about-content">
+            <h2 class="section-title">Hvad er Padel?</h2>
+            <div class="about-grid">
+              <div class="about-text">
+                <p class="about-description">
+                  Padel er en hurtigvoksende racketsport, der kombinerer
+                  elementer fra tennis og squash. Spillet spilles på en mindre
+                  bane omgivet af vægge, hvilket skaber en unik og spændende
+                  spiloplevelse.
+                </p>
+                <div class="feature-list">
+                  <div class="feature-item">
+                    <span>Hurtig og dynamisk sport</span>
+                  </div>
+                  <div class="feature-item">
+                    <span>Perfekt for alle niveauer</span>
+                  </div>
+                  <div class="feature-item">
+                    <span>Voksende international sport</span>
+                  </div>
+                </div>
+              </div>
+              <div class="about-image">
+                <img
+                  src="billag_cs/full-shot-people-playing-paddle-tennis.webp"
+                  alt="Padel Court Overview"
+                  class="about-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Links Section -->
+      <section class="quick-links">
+        <div class="container">
+          <h2 class="section-title">Kom i gang</h2>
+          <div class="links-grid">
+            <a href="regler.html" class="link-card">
+              <h3>Regler & Bane</h3>
+              <p>Lær de grundlæggende regler og baneopsætning</p>
+              <div class="card-arrow">→</div>
+            </a>
+            <a href="udstyr.html" class="link-card">
+              <h3>Udstyr</h3>
+              <p>Find det rigtige udstyr til at komme i gang</p>
+              <div class="card-arrow">→</div>
+            </a>
+            <a href="spilselv.html" class="link-card">
+              <h3>Spil Selv</h3>
+              <p>Book en bane og kom i gang med at spille</p>
+              <div class="card-arrow">→</div>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <img
+          src="billag_cs/logo/logo.webp"
+          alt="Padel Logo"
+          class="footer-logo"
+        />
+        <p class="footer-text">
+          Din komplette guide til padel - fra regler og udstyr til spillet på
+          banen.
+        </p>
+      </div>
+      <p class="footer-copy">© 2025 PadelGuiden.dk</p>
+    </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
